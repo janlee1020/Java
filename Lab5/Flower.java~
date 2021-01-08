@@ -1,0 +1,25 @@
+public class Flower{
+  public Flower{
+    boolean isAnnual;
+    String colorOfFlowers;
+  }
+  public void setPlantType(boolean userIsAnnual) {
+    isAnnual=userIsAnnual;
+  }
+  
+  public boolean getPlantType() {
+    return isAnnual;
+  }
+  
+  public void String setColorOfFlowers(String userColorOfFlower) {
+    colorOfFlowers=userColorOfFlower;
+  }
+  
+  public String getColorOfFlowers() {
+    return colorOfFlowers;
+  }
+  
+  public void printInfo() {
+    
+  }
+}

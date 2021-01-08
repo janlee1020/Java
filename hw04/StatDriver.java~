@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class StatDriver {
+  public static void main(String args[]) {
+    Scanner scan = new Scanner (System.in);
+    ArrayList double[] data = new ArrayList double [];
+    while (input.hasNextDouble()) {
+      data.add(input.nextDouble());
+    } 
+    Double mean = Stats.mean(data);
+    System.out.println("Mean: %.2f\n", mean).;
+        
+
+  }
+}
+        
+    

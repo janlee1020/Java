@@ -1,0 +1,48 @@
+
+public class PA1 {
+  public static void main {String args[]}
+  {
+    Scanner scnr=new Scanner(System.in);
+    String commname;
+    String sciname;
+    int circum;
+    int height;
+    int largcrown;
+    int narcrown;
+    
+    System.out.println("Enter the common name ");
+    commname=scnr.next();
+    System.out.println("Common name: " + commname);
+    
+    System.out.println("Enter the scientific name ");
+    sciname=scnr.next();
+    System.out.println("Scientific name: " + sciname);
+    System.out.println(" ")
+    
+    System.out.println("Enter the circumference in inches: ");
+    circum=scnr.nextInt();
+    System.out.println("Circumference: " + circum);
+    
+    System.out.println("Enter the height in feet: ");
+    height=scnr.nextInt();
+    System.out.println("Height: " + height);
+    
+    System.out.println("Enter the largest crown spread in feet: ");
+    largcrown=scnr.nextInt();
+    
+    System.out.println("Enter the smallest crown spread in feet: ");
+    narcrown=scnr.nextInt();
+    
+    avgcrown= ((largcrown - narcrown)/2);
+    System.out.println("Average Crown: " + avgcrown);
+    System.out.println(" ")
+    
+    totpoints= circum + height + (avgcrown/4);
+    System.out.println("Total Points: " + totpoints);
+      
+      
+      
+      
+    
+      
+    

@@ -1,0 +1,52 @@
+
+/**
+ * Operator nodes are the internal nodes of a binary expression tree.
+ * 
+ * @author ???
+ * @version ???
+ */
+public class OperatorNode extends ExpressionNode {
+
+  private Operator op;
+
+  public OperatorNode(Operator op) {
+    super();
+    this.op = op;
+  }
+
+  public OperatorNode(Operator op, ExpressionNode left, ExpressionNode right) {
+    super(left, right);
+    this.op = op;
+  }
+
+  /**
+   * Evaluate the expression rooted at this node and return the result.
+   */
+  @Override
+  public double evaluate() {
+
+    // UNFINISHED.
+    return node.data;
+
+  }
+
+  @Override
+  public String postfixString() {
+    // UNFINISHED (See superclass javadocs for requirements.)
+    return "";
+  }
+
+  @Override
+  public String prefixString() {
+    // UNFINISHED
+    return "";
+  }
+
+  @Override
+  public String infixString() {
+    // UNFINISHED
+    return "";
+  }
+
+
+}

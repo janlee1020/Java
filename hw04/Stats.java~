@@ -1,0 +1,14 @@
+public class Stats {
+  public static void double mean(ArrayList double data) {
+    if ((data != null) && (data.length > 0)) {
+      sum = 0;
+      for (int i = 0; i < ArrayList.length; i++) {
+        sum += data[i];
+        mean=sum/data.length;
+        return mean;
+      }
+    }
+    else {
+      return Double.NaN;
+    }
+  }
